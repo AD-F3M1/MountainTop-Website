@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: 19px;
+    background-color: white;
+    color: #014713;
+    display: flex;    
+}
+
+ul {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+li {
+    padding-right: 40px;
+}
+
+a {
+    color: white;
+}
+
+.openmenu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 34px;
+    background-color: #014713;
+    font-size: 18px;
+    font-weight: 799;
+    display: flex;
+    color: white;
+}
+
+.menubutton {
+    padding-left: 10px;
+}
+.logo {
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 5px;
+    margin-right: 34%;
+}
+
+.logo img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.search {
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.bg1 {
+    background-image: url(school\ 1.jpg);
+    width: 100%;
+    height: 80.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .content{
+    padding: 120px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    color: white;
+    border-radius: 150px;
+    width: fit-content;
+    height: fit-content;
+ }
+
+ .content h1{
+    font: 100px Jost, sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #014713;
+    margin-bottom: -30px;
+ }
+
+ .content p{
+    font: 140px  "Vujahday Script", cursive;
+    color: #DEB509;
+    font-weight: 400;
+ }
