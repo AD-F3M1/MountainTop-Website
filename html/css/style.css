@@ -5,14 +5,16 @@
     margin: 0px;
     list-style: none;
     text-decoration: none;
-    font-family: sans-serif;
 }
 
 .header {
     font-size: 19px;
     background-color: white;
     color: #014713;
-    display: flex;    
+    display: flex;  
+    position: fixed;
+    z-index: 1;  
+    font-family: sans-serif;
 }
 
 ul {
@@ -63,9 +65,11 @@ a {
 .bg1 {
     background-image: url(school\ 1.jpg);
     width: 100%;
-    height: 80.5vh;
+    height: 82vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 70px;
+    padding-left: 145px;
  }
 
  .content{
@@ -79,7 +83,7 @@ a {
  }
 
  .content h1{
-    font: 100px Jost, sans-serif;
+    font: 100px "Jost", sans-serif;
     font-weight: 800;
     line-height: 1.1;
     color: #014713;
@@ -91,3 +95,57 @@ a {
     color: #DEB509;
     font-weight: 400;
  }
+
+  .bg2 {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 410px;
+    margin-right: 410px;
+    justify-content: space-between;
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .button1 {
+    color: #004712;
+    padding: 13px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 16px sans-serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    border: 1.7px solid #004712; 
+    font-weight: 700;
+  }
+
+  .text h1 {
+    font-family: "Jost";
+    font-size: 45px;
+    margin: 0px 0px 16px;
+    color: #004712;
+  }
+
+  .text h5 {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 24px;
+    font-weight: 100;
+    color: #434244;
+  }
+
+  .text p {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 18px;
+    color: #434244;
+    line-height: 27px;
+  }
+
+ 
+ 
