@@ -101,11 +101,12 @@ a {
     margin-top: 60px;
     margin-left: 410px;
     margin-right: 410px;
+    margin-bottom: 85px;
     justify-content: space-between;
   }
   
   .button1:hover {
-    background-color: #04AA6D;
+    background-color: #004712;
     color: white;
   }
 
@@ -147,5 +148,69 @@ a {
     line-height: 27px;
   }
 
+  .bg3 {
+    padding-left: 390px;
+    padding-right: 410px;
+    padding-top: 110px;
+    background-color: #f4f5f4;
+    justify-content: space-between;
+  }
  
- 
+  .bg3 img {
+    border: 7px solid #f4f5f4;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.image2-3 {
+    display: flex;
+}
+
+.image4-5 {
+    display: flex;
+}
+
+.image4-5 p{
+    padding-top: 150px;
+    padding-left: 100px;
+    font: 79px  "Vujahday Script", cursive;
+    color: #DEB509;
+    font-weight: 400;
+}
+
+.button2:hover {
+    background-color: #004712;
+    color: #f4f5f4;
+  }
+
+  .button2 {
+    color: #004712;
+    padding: 13px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 16px sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #f4f5f4;
+    border: 1.7px solid #004712; 
+    font-weight: 700;
+  }
+
+  .text2 {
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+
+  .text2 h1 {
+    font-family: "Jost";
+    font-size: 35px;
+    color: #004712;
+  }
+
+  .text2 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #434244;
+    line-height: 27px;
+  }
