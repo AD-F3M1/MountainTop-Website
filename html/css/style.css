@@ -567,6 +567,7 @@
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3%;
   max-width: 57%;
   text-align: center;
   font-family: "Jost";
@@ -604,4 +605,42 @@
 .innercontent4 p {
   font-weight: 350;
   font-size: 1.05rem;
+}
+
+.bg12 {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  max-width: 57%;
+  font-family: "Jost";
+}
+
+.content5 img{
+  max-width: 70%;
+  max-height: 18.5rem;
+}
+.content5 {
+  display: flex;
+}
+
+.innercontent5 {
+  padding-right: 5%;
+}
+.innercontent5 h1{
+  padding-bottom: 4%;
+  color: #014713;
+}
+
+.innercontent5 p{
+  padding-bottom: 3%;
+}
+
+.lasttext {
+  font-family: "Vujahday Script";
+  color: #DEB509;
+  font-size: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -60px;
 }
